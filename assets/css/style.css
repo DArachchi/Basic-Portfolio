@@ -103,7 +103,7 @@ header {
 	position: fixed;
 	top: 0px;
 	width: 100%;
-	z-index: 1;
+	z-index: 10;
 }
 
 hr.main {
@@ -167,9 +167,13 @@ p {
 .projecttitle {
 	background-color: #4aaaa5;
 	color: #ffffff;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	font-size: 14pt;
+	padding: 15px 0px;
 	position: absolute;
 	text-align: center;
 	width: 293px;
+	z-index: 2;
 }
 
 .push {
